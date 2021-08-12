@@ -7,21 +7,27 @@ on:
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v1
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      - name: Install and Build 
-        run: npm install & npm run build
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with: 
+          node-version: 14.x
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: gh-pages
-          folder: build 
+      - name: Install NPM packages
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+  
+  deploy:
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: gh-pages
+        folder: build

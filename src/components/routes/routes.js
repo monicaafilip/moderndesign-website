@@ -16,9 +16,7 @@ class Routes extends Component
 		return (
 			<Switch>
 		        <Route exact path="/moderndesignWebsite/acasa" component={Acasa} />
-		        <Route exact path="/moderndesignWebsite">
-		          <Redirect to="/moderndesignWebsite/acasa" />
-		        </Route>
+		        <Route exact path="/moderndesignWebsite" component={Acasa}/>
 		        <Route exact path="/moderndesignWebsite/desprenoi" component={DespreNoi} />
 		        <Route exact path="/moderndesignWebsite/produse" component={Produse} />
 		    </Switch>

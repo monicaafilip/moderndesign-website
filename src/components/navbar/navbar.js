@@ -15,7 +15,9 @@ const Navbar = props =>
 		return (
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">		           
 	            <div className="navbar-brand">
-	                <img className="img fluid logoImg" src={logo} alt="logo"></img>
+	                <Link to="/moderndesignWebsite/">
+	                	<img className="img fluid logoImg" src={logo} alt="logo"></img>
+	                </Link>
 	            </div>
 	            <div className="navbarIcons">
 	                <i className="fa fa-search fa-2x d-lg-none d-xl-none"></i>
@@ -28,7 +30,7 @@ const Navbar = props =>
 	            </div>
 	            <div className="collapse navbar-collapse" id="navbarNavDropdown">
 	                <ul className="navbar-nav mr-auto">
-	                    <li className={currentPath.includes("acasa") ? "nav-link active" : "nav-link"}><Link className="nav-link" to="/moderndesignWebsite/acasa"> Acasă <span className="sr-only">(current)</span></Link></li>
+	                    <li className={currentPath.includes("acasa") ? "nav-link active" : "nav-link"}><Link className="nav-link" to="/moderndesignWebsite/acasa">Acasă <span className="sr-only">(current)</span></Link></li>
 	                    <li className={currentPath.includes("desprenoi") ? "nav-link active" : "nav-link"}><Link className="nav-link" to="/moderndesignWebsite/desprenoi">Despre noi</Link></li>
 	                    <li className={currentPath.includes("produse") ? "nav-link active" : "nav-link"}><Link className="nav-link" to="/moderndesignWebsite/produse">Produse</Link></li>
 	                </ul>
