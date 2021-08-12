@@ -10,7 +10,7 @@ class Product extends Component
 		return (
 			<div class="portfolio-object">
 		        <div class="portfolio-box">
-		        	<img class="icon" src={prodImg}/>
+		        	<img class="icon" src={prodImg} alt="product"/>
 		        </div>
 		        <h4>Mobila</h4>
 		        <div class="portfolio-text">
