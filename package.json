@@ -1,6 +1,6 @@
 {
-  "name": "moderndesign-website",
-  "homepage": "https://monicaafilip.github.io/moderndesign-website",
+  "name": "moderndesignWebsite",
+  "homepage": "https://monicaafilip.github.io/moderndesignWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
