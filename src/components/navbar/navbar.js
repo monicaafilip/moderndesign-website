@@ -11,7 +11,6 @@ const Navbar = props =>
 {
 	const currentPath = useHistory().location.pathname.toLowerCase();
 	
-	
 		return (
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark">		           
 	            <div className="navbar-brand">

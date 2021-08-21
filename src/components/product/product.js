@@ -1,24 +1,24 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './product.css';
 
 import prodImg from '../../assets/temporary/products/prod (1).jpeg';
 
-class Product extends Component
+const Product = () =>
 {
-	render()
-	{
-		return (
-			<div class="portfolio-object">
-		        <div class="portfolio-box">
-		        	<img class="icon" src={prodImg} alt="product"/>
-		        </div>
-		        <h4>Mobila</h4>
-		        <div class="portfolio-text">
-		          Descriere in mare
-		        </div>
-		    </div>
-		);
-	}
+	return (
+		<div className="portfolio-object">
+			<div className="card">
+				<img className="card-img-top" src={prodImg} alt="produs"/>
+				<div className="card-body">
+				<h5 className="card-title">Produs</h5>
+				<p className="card-text">
+					Descriere
+				</p>
+				<button className="btn btn-primary">Mai multe detalii</button>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Product;
