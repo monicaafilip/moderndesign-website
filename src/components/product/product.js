@@ -1,18 +1,18 @@
 import React from 'react';
 import './product.css';
 
-import prodImg from '../../assets/temporary/products/prod (1).jpeg';
-
-const Product = () =>
+const Product = ({ title, imageUrl, description }) =>
 {
+	console.log(title);
+	console.log(description);
 	return (
 		<div className="portfolio-object">
 			<div className="card">
-				<img className="card-img-top" src={prodImg} alt="produs"/>
+				<img className="card-img-top" src={imageUrl} alt="produs"/>
 				<div className="card-body">
-				<h5 className="card-title">Produs</h5>
+				<h5 className="card-title">{title}</h5>
 				<p className="card-text">
-					Descriere
+				{description}
 				</p>
 				<button className="btn btn-primary">Mai multe detalii</button>
 				</div>

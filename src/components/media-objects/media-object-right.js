@@ -10,9 +10,9 @@ const MediaObjectRight = () =>
             <div className="icon-right">
                 <img className="icon" src={image} alt="locatie danila"/>
             </div>
-            <div class="blurb-wrapper-left">
-                <h3 class="blurb-header">Magazin Dănila</h3>
-                <div class="blurb-info">
+            <div className="blurb-wrapper-left">
+                <h3 className="blurb-header">Magazin Dănila</h3>
+                <div className="blurb-info">
                     <h5>Adresă</h5>
                     <p>
                         Dănila, nr 0000
