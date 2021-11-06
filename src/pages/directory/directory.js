@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
-import './produse.css';
+import './directory.css';
 import '../../App.css';
 
 import Navbar from '../../components/navbar/navbar';
@@ -11,7 +11,7 @@ import Footer from '../../components/footer/footer';
 
 import { selectProducts } from '../../redux/directory/directory.selectors';
 
-const Produse = ({ products }) => {
+const Directory = ({ products }) => {
 	return (
 		<div className="App">
 			<div className="container-fluid mainHomePage">
@@ -39,4 +39,4 @@ const mapStateToProps = createStructuredSelector({
 	products: selectProducts
 });
 
-export default connect(mapStateToProps)(Produse);
+export default connect(mapStateToProps)(Directory);

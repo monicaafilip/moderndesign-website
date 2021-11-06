@@ -4,18 +4,18 @@ import {
  Switch
 } from 'react-router-dom';
 
-import Acasa from '../../pages/acasa/acasa';
-import DespreNoi from '../../pages/desprenoi/desprenoi';
-import Produse from '../../pages/produse/produse'
+import Home from '../../pages/home/home';
+import AboutUs from '../../pages/aboutus/aboutus';
+import Directory from '../../pages/directory/directory'
 
 const Routes = () =>
 {
 	return (
 		<Switch>
-			<Route exact path="/moderndesignWebsite/acasa" component={Acasa} />
-			<Route exact path="/moderndesignWebsite" component={Acasa}/>
-			<Route exact path="/moderndesignWebsite/desprenoi" component={DespreNoi} />
-			<Route exact path="/moderndesignWebsite/produse" component={Produse} />
+			<Route exact path="/moderndesignWebsite/acasa" component={Home} />
+			<Route exact path="/moderndesignWebsite" component={Home}/>
+			<Route exact path="/moderndesignWebsite/desprenoi" component={AboutUs} />
+			<Route exact path="/moderndesignWebsite/produse" component={Directory} />
 		</Switch>
 	);
 }

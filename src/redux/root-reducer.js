@@ -11,7 +11,7 @@ const persistConfig = {
 };
 
 const rootReducer = combineReducers({
-    produse: directoryReducer
+    prods: directoryReducer
 });
 
 export default persistReducer(persistConfig, rootReducer);

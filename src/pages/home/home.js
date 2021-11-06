@@ -4,9 +4,9 @@ import Footer from '../../components/footer/footer';
 import MediaObjectLeft from '../../components/media-objects/media-object-left';
 import MediaObjectRight from '../../components/media-objects/media-object-right';
 import Navbar from '../../components/navbar/navbar';
-import './acasa.css';
+import './home.css';
 
-const Acasa = () => {
+const Home = () => {
   return (
     <div className="App">
         <div className="container-fluid mainHomePage">
@@ -20,4 +20,4 @@ const Acasa = () => {
   );
 }
 
-export default Acasa;
+export default Home;
