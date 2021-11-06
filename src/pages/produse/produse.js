@@ -9,11 +9,9 @@ import Navbar from '../../components/navbar/navbar';
 import Product from '../../components/product/product';
 import Footer from '../../components/footer/footer';
 
-import { selectDirectoryProducts } from '../../redux/directory/directory.selectors';
+import { selectProducts } from '../../redux/directory/directory.selectors';
 
-const  Produse = ({ products }) => {
-	console.log(products);
-	if (products)
+const Produse = ({ products }) => {
 	return (
 		<div className="App">
 			<div className="container-fluid mainHomePage">
@@ -35,26 +33,10 @@ const  Produse = ({ products }) => {
 			</div>
 		</div>
 	);
-	else 
-	return (
-		<div className="App">
-			<div className="container-fluid mainHomePage">
-			<Navbar/>
-			
-			<section className="portfolio">
-				<div className="container">
-					<div className="portfolio-wrapper"></div>
-					PRODUCTS NOT SET
-					</div>
-				</section>
-			<Footer/>
-			</div>
-		</div>
-	)
 }
 
 const mapStateToProps = createStructuredSelector({
-	products: selectDirectoryProducts
+	products: selectProducts
 });
 
 export default connect(mapStateToProps)(Produse);
