@@ -6,7 +6,6 @@ import {
 
 import './navbar.css';
 import logo from '../../assets/initial-logo.png';
-import Search from '../search/search.component';
 
 const Navbar = props => 
 {
