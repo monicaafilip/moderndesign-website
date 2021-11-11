@@ -6,7 +6,7 @@ import {
 
 import Home from '../../pages/home/home';
 import AboutUs from '../../pages/aboutus/aboutus';
-import Directory from '../../pages/directory/directory'
+import Directory from '../../pages/directory/directory';
 
 const Routes = () =>
 {
