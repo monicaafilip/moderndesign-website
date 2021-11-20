@@ -1,6 +1,6 @@
 import data from "./MOCK_DATA.json";
 const INITIAL_STATE = {
-  products: data,
+  products: data
 };
 
 const directoryReducer = (state = INITIAL_STATE, action) => {
