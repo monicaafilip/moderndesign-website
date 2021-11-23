@@ -1,33 +1,12 @@
-import React, { useState } from "react";
-// import {useHistory, BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-// import {
-//  Link
-// } from 'react-router-dom';
-import {
-  Navbar,
-  Container,
-  Nav,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import React from "react";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 import "./mynavbar.css";
 import logo from "../../assets/initial-logo.png";
-import Search from "../search/search.component";
-import data from "../../redux/directory/MOCK_DATA.json";
+// import Search from "../search/search.component";
+// import data from "../../redux/directory/MOCK_DATA.json";
 
-const MyNavbar = (props) => {
-  // const history = useHistory();
-  // const currentPath = history.location.pathname.toLowerCase();
-  // var searchValue = useState("");
-
-  // const changePage  = (event) => {
-  // 	let path = `/moderndesignWebsite/produse`;
-  // 	history.push(path);
-  // 	searchValue = event.target.value;  // not good
-  // 	console.log(searchValue);
-  //   }
+const MyNavbar = () => {
   return (
     <Navbar bg="dark" expand="lg">
       <Container fluid>
@@ -45,21 +24,6 @@ const MyNavbar = (props) => {
           <Nav.Link className="nav-link" href="/moderndesignWebsite/produse">
             Produse
           </Nav.Link>
-
-          <Search
-            placeholder="Caută după categorie(ex:bucatarie)"
-            data={data}
-          />
-
-          {/* <Form className="d-flex">
-					<FormControl
-					type="search"
-					placeholder="Search"
-					className="me-2"
-					aria-label="Search"
-					/>
-					<Button variant="outline-success">Search</Button>
-				</Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
