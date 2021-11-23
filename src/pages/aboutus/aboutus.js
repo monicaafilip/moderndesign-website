@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Navbar from '../../components/navbar/navbar';
+import MyNavbar from '../../components/mynavbar/mynavbar';
 import TitleTextContainer from '../../components/title-text-container/title-text-container';
 import Footer from '../../components/footer/footer';
 import Divider from '../../components/divider/divider';
@@ -12,7 +12,7 @@ const AboutUs = () => {
   return (
     <div className="App">
         <div className="container-fluid mainHomePage">
-        <Navbar/>
+        <MyNavbar/>
         <TitleTextContainer/>
         <Divider/>
         <TitleTextContainer/>

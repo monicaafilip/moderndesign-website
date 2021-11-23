@@ -1,15 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
+import { Form, FormControl } from "react-bootstrap";
 
-import './search.styles.css';
+import SearchIcon from "@material-ui/icons/Search";
+import CloseIcon from "@material-ui/icons/Close";
 
-const Search = () => {
-    
-    return (
-        <form className="form-inline my-2 my-lg-0">
-            <input className="form-control mr-sm-2 d-none d-lg-block" type="search" placeholder="Căutare" aria-label="Cautare"></input>
-            <button className="btn btn-outline-success my-2 my-sm-0 d-none d-lg-block" type="submit">Căutare</button>
-        </form>
-    );
-}
+import "./search.styles.css";
+
+const Search = ({ placeholder, data }) => {
+  const [filteredData, setFilteredData] = useState([]);
+  const [wordEntered, setWordEntered] = useState("");
+
+  const handleFilter = (event) => {
+    const searchWord = event.target.value;
+    setWordEntered(searchWord);
+    const newFilter = data.filter((value) => {
+      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+    });
+
+    if (searchWord === "") {
+      setFilteredData([]);
+    } else {
+      setFilteredData(newFilter);
+    }
+  };
+
+  const clearInput = () => {
+    setFilteredData([]);
+    setWordEntered("");
+  };
+
+  return (
+    <div className="search">
+      <Form className="d-flex">
+        <FormControl
+          type="search"
+          placeholder={placeholder}
+          className="me-2"
+          aria-label="Search"
+          value={wordEntered}
+          onChange={handleFilter}
+        />
+        <div className="searchIcon">
+          {filteredData.length === 0 ? (
+            <SearchIcon />
+          ) : (
+            <CloseIcon id="clearBtn" onClick={clearInput} />
+          )}
+        </div>
+      </Form>
+      {filteredData.length !== 0 && (
+        <div className="dataResult">
+          {filteredData.slice(0, 15).map((value, key) => {
+            return (
+              <a className="dataItem" href={value.link} target="_blank">
+                <p>{value.title} </p>
+              </a>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default Search;

@@ -21,4 +21,10 @@
 .nav-link
 {
 	text-decoration: none !important;
+	color: whitesmoke !important;
+}
+
+.nav-link:hover {
+	background-color: transparent;
+	color:red !important;
 }
