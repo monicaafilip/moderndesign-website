@@ -31,7 +31,15 @@
   cursor: pointer;
 }
 
-.card:hover {
+/* .card:hover {
   z-index: 1;
   transform: scale(1.5);
+} */
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 }
