@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 import "./mynavbar.css";
@@ -13,15 +14,15 @@ const MyNavbar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav.Link className="nav-link" href="/moderndesignWebsite/acasa">
+          <Link className="nav-link" to="/acasa">
             Acasă
-          </Nav.Link>
-          <Nav.Link className="nav-link" href="/moderndesignWebsite/desprenoi">
+          </Link>
+          <Link className="nav-link" to="/desprenoi">
             Despre noi
-          </Nav.Link>
-          <Nav.Link className="nav-link" href="/moderndesignWebsite/produse">
+          </Link>
+          <Link className="nav-link" to="/produse">
             Produse
-          </Nav.Link>
+          </Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
