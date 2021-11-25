@@ -1,13 +1,25 @@
 import React from 'react';
-import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
+import { 
+  BrowserRouter as Router,
+  Route, 
+  Switch
+ } from 'react-router-dom';
+ 
+import Home from './pages/home/home';
+import AboutUs from './pages/aboutus/aboutus';
+import Directory from './pages/directory/directory';
 
-import Routes from './components/routes/routes.js';
+import './App.css';
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Routes/>
+      <Switch>
+        <Route exact path="/acasa" component={Home} />
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/desprenoi" component={AboutUs} />
+        <Route exact path="/produse" component={Directory} />
+		  </Switch>
     </Router>
   );
 }
