@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/moderndesignWebsite/static/css/main.96905d47.chunk.css",
-    "main.js": "/moderndesignWebsite/static/js/main.734b76e1.chunk.js",
-    "main.js.map": "/moderndesignWebsite/static/js/main.734b76e1.chunk.js.map",
-    "runtime-main.js": "/moderndesignWebsite/static/js/runtime-main.dd9f282d.js",
-    "runtime-main.js.map": "/moderndesignWebsite/static/js/runtime-main.dd9f282d.js.map",
-    "static/css/2.383c0125.chunk.css": "/moderndesignWebsite/static/css/2.383c0125.chunk.css",
-    "static/js/2.ead93b1d.chunk.js": "/moderndesignWebsite/static/js/2.ead93b1d.chunk.js",
-    "static/js/2.ead93b1d.chunk.js.map": "/moderndesignWebsite/static/js/2.ead93b1d.chunk.js.map",
+    "main.css": "/moderndesignWebsite/static/css/main.7e8a6608.chunk.css",
+    "main.js": "/moderndesignWebsite/static/js/main.5af31466.chunk.js",
+    "main.js.map": "/moderndesignWebsite/static/js/main.5af31466.chunk.js.map",
+    "runtime-main.js": "/moderndesignWebsite/static/js/runtime-main.4f895832.js",
+    "runtime-main.js.map": "/moderndesignWebsite/static/js/runtime-main.4f895832.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/moderndesignWebsite/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e42062cf.chunk.js": "/moderndesignWebsite/static/js/2.e42062cf.chunk.js",
+    "static/js/2.e42062cf.chunk.js.map": "/moderndesignWebsite/static/js/2.e42062cf.chunk.js.map",
     "index.html": "/moderndesignWebsite/index.html",
-    "static/css/2.383c0125.chunk.css.map": "/moderndesignWebsite/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.96905d47.chunk.css.map": "/moderndesignWebsite/static/css/main.96905d47.chunk.css.map",
-    "static/js/2.ead93b1d.chunk.js.LICENSE.txt": "/moderndesignWebsite/static/js/2.ead93b1d.chunk.js.LICENSE.txt",
+    "static/css/2.0a9ec390.chunk.css.map": "/moderndesignWebsite/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.7e8a6608.chunk.css.map": "/moderndesignWebsite/static/css/main.7e8a6608.chunk.css.map",
+    "static/js/2.e42062cf.chunk.js.LICENSE.txt": "/moderndesignWebsite/static/js/2.e42062cf.chunk.js.LICENSE.txt",
     "static/media/initial-logo.5f0d19c0.png": "/moderndesignWebsite/static/media/initial-logo.5f0d19c0.png",
     "static/media/loc (1).dd77aca8.jpeg": "/moderndesignWebsite/static/media/loc (1).dd77aca8.jpeg",
     "static/media/loc (2).6e44ec98.jpeg": "/moderndesignWebsite/static/media/loc (2).6e44ec98.jpeg",
@@ -19,10 +19,10 @@
     "static/media/prod (2).f0e26026.jpeg": "/moderndesignWebsite/static/media/prod (2).f0e26026.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd9f282d.js",
-    "static/css/2.383c0125.chunk.css",
-    "static/js/2.ead93b1d.chunk.js",
-    "static/css/main.96905d47.chunk.css",
-    "static/js/main.734b76e1.chunk.js"
+    "static/js/runtime-main.4f895832.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.e42062cf.chunk.js",
+    "static/css/main.7e8a6608.chunk.css",
+    "static/js/main.5af31466.chunk.js"
   ]
 }
