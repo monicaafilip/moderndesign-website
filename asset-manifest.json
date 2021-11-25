@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/moderndesignWebsite/static/css/main.96905d47.chunk.css",
-    "main.js": "/moderndesignWebsite/static/js/main.11ad0b37.chunk.js",
-    "main.js.map": "/moderndesignWebsite/static/js/main.11ad0b37.chunk.js.map",
+    "main.js": "/moderndesignWebsite/static/js/main.fd10c392.chunk.js",
+    "main.js.map": "/moderndesignWebsite/static/js/main.fd10c392.chunk.js.map",
     "runtime-main.js": "/moderndesignWebsite/static/js/runtime-main.dd9f282d.js",
     "runtime-main.js.map": "/moderndesignWebsite/static/js/runtime-main.dd9f282d.js.map",
     "static/css/2.383c0125.chunk.css": "/moderndesignWebsite/static/css/2.383c0125.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.a4603d83.chunk.js",
     "static/css/main.96905d47.chunk.css",
-    "static/js/main.11ad0b37.chunk.js"
+    "static/js/main.fd10c392.chunk.js"
   ]
 }
