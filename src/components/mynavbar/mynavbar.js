@@ -3,8 +3,6 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 import "./mynavbar.css";
 import logo from "../../assets/initial-logo.png";
-// import Search from "../search/search.component";
-// import data from "../../redux/directory/MOCK_DATA.json";
 
 const MyNavbar = () => {
   return (
@@ -15,13 +13,13 @@ const MyNavbar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav.Link className="nav-link" href="/moderndesignWebsite/acasa">
+          <Nav.Link className="nav-link" href="https://monicaafilip.github.io/moderndesignWebsite/acasa">
             Acasă
           </Nav.Link>
-          <Nav.Link className="nav-link" href="/moderndesignWebsite/desprenoi">
+          <Nav.Link className="nav-link" href="https://monicaafilip.github.io/moderndesignWebsite/desprenoi">
             Despre noi
           </Nav.Link>
-          <Nav.Link className="nav-link" href="/moderndesignWebsite/produse">
+          <Nav.Link className="nav-link" href="https://monicaafilip.github.io/moderndesignWebsite/produse">
             Produse
           </Nav.Link>
         </Navbar.Collapse>
