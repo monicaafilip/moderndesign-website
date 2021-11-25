@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/moderndesignWebsite/static/css/main.6ebdc8af.chunk.css",
-    "main.js": "/moderndesignWebsite/static/js/main.0017db24.chunk.js",
-    "main.js.map": "/moderndesignWebsite/static/js/main.0017db24.chunk.js.map",
+    "main.js": "/moderndesignWebsite/static/js/main.3dbc71c1.chunk.js",
+    "main.js.map": "/moderndesignWebsite/static/js/main.3dbc71c1.chunk.js.map",
     "runtime-main.js": "/moderndesignWebsite/static/js/runtime-main.dd9f282d.js",
     "runtime-main.js.map": "/moderndesignWebsite/static/js/runtime-main.dd9f282d.js.map",
     "static/css/2.383c0125.chunk.css": "/moderndesignWebsite/static/css/2.383c0125.chunk.css",
-    "static/js/2.d36758b4.chunk.js": "/moderndesignWebsite/static/js/2.d36758b4.chunk.js",
-    "static/js/2.d36758b4.chunk.js.map": "/moderndesignWebsite/static/js/2.d36758b4.chunk.js.map",
+    "static/js/2.b21050ef.chunk.js": "/moderndesignWebsite/static/js/2.b21050ef.chunk.js",
+    "static/js/2.b21050ef.chunk.js.map": "/moderndesignWebsite/static/js/2.b21050ef.chunk.js.map",
     "index.html": "/moderndesignWebsite/index.html",
     "static/css/2.383c0125.chunk.css.map": "/moderndesignWebsite/static/css/2.383c0125.chunk.css.map",
     "static/css/main.6ebdc8af.chunk.css.map": "/moderndesignWebsite/static/css/main.6ebdc8af.chunk.css.map",
-    "static/js/2.d36758b4.chunk.js.LICENSE.txt": "/moderndesignWebsite/static/js/2.d36758b4.chunk.js.LICENSE.txt",
+    "static/js/2.b21050ef.chunk.js.LICENSE.txt": "/moderndesignWebsite/static/js/2.b21050ef.chunk.js.LICENSE.txt",
     "static/media/initial-logo.5f0d19c0.png": "/moderndesignWebsite/static/media/initial-logo.5f0d19c0.png",
     "static/media/loc (1).dd77aca8.jpeg": "/moderndesignWebsite/static/media/loc (1).dd77aca8.jpeg",
     "static/media/loc (2).6e44ec98.jpeg": "/moderndesignWebsite/static/media/loc (2).6e44ec98.jpeg",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.dd9f282d.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.d36758b4.chunk.js",
+    "static/js/2.b21050ef.chunk.js",
     "static/css/main.6ebdc8af.chunk.css",
-    "static/js/main.0017db24.chunk.js"
+    "static/js/main.3dbc71c1.chunk.js"
   ]
 }
