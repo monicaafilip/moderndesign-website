@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/moderndesignWebsite/static/css/main.821d53f0.chunk.css",
-    "main.js": "/moderndesignWebsite/static/js/main.4c8c2afc.chunk.js",
-    "main.js.map": "/moderndesignWebsite/static/js/main.4c8c2afc.chunk.js.map",
+    "main.js": "/moderndesignWebsite/static/js/main.7aa840c2.chunk.js",
+    "main.js.map": "/moderndesignWebsite/static/js/main.7aa840c2.chunk.js.map",
     "runtime-main.js": "/moderndesignWebsite/static/js/runtime-main.7ba03089.js",
     "runtime-main.js.map": "/moderndesignWebsite/static/js/runtime-main.7ba03089.js.map",
-    "static/js/2.95506d1d.chunk.js": "/moderndesignWebsite/static/js/2.95506d1d.chunk.js",
-    "static/js/2.95506d1d.chunk.js.map": "/moderndesignWebsite/static/js/2.95506d1d.chunk.js.map",
+    "static/js/2.bd154d57.chunk.js": "/moderndesignWebsite/static/js/2.bd154d57.chunk.js",
+    "static/js/2.bd154d57.chunk.js.map": "/moderndesignWebsite/static/js/2.bd154d57.chunk.js.map",
     "index.html": "/moderndesignWebsite/index.html",
     "static/css/main.821d53f0.chunk.css.map": "/moderndesignWebsite/static/css/main.821d53f0.chunk.css.map",
-    "static/js/2.95506d1d.chunk.js.LICENSE.txt": "/moderndesignWebsite/static/js/2.95506d1d.chunk.js.LICENSE.txt"
+    "static/js/2.bd154d57.chunk.js.LICENSE.txt": "/moderndesignWebsite/static/js/2.bd154d57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7ba03089.js",
-    "static/js/2.95506d1d.chunk.js",
+    "static/js/2.bd154d57.chunk.js",
     "static/css/main.821d53f0.chunk.css",
-    "static/js/main.4c8c2afc.chunk.js"
+    "static/js/main.7aa840c2.chunk.js"
   ]
 }
