@@ -7,7 +7,7 @@ import {
  
 import Home from './pages/home/home';
 import AboutUs from './pages/aboutus/aboutus';
-import Directory from './pages/directory/directory';
+// import Directory from './pages/directory/directory';
 
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/acasa" component={Home} />
         <Route exact path="/" component={Home}/>
         <Route exact path="/desprenoi" component={AboutUs} />
-        <Route exact path="/produse" component={Directory} />
+        {/* <Route exact path="/produse" component={Directory} /> */}
 		  </Switch>
     </Router>
   );
